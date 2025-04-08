@@ -137,7 +137,7 @@ read -p "PILIH OPSI (1-16): " OPTION
 case "$OPTION" in
     1)
         # Masukkan token GitHub langsung di sini
-        GITHUB_TOKEN="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"
+        GITHUB_TOKEN="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"
 
         # Clone repositori menggunakan token
         REPO_URL="https://github.com/ikal2759/theme-installer.git"
@@ -176,7 +176,7 @@ case "$OPTION" in
         ;;
     4)
         # Masukkan token GitHub langsung di sini
-        GITHUB_TOKEN="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"
+        GITHUB_TOKEN="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"
 
         # Clone repositori menggunakan token
         REPO_URL="https://github.com/ikal2759/theme-installer.git"
@@ -222,7 +222,7 @@ if [ ! -f "$BLUEPRINT_FILE" ]; then
 fi
 
 # Masukkan token GitHub langsung di sini
-    GITHUB_TOKEN="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"
+    GITHUB_TOKEN="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"
 
     # Clone repositori menggunakan token
     REPO_URL="https://github.com/ikal2759/theme-installer.git"
@@ -247,7 +247,7 @@ if [ ! -f "$BLUEPRINT_FILE" ]; then
     exit 1
 fi
 # Masukkan token GitHub langsung di sini
-    GITHUB_TOKEN="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"
+    GITHUB_TOKEN="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"
 
     # Clone repositori menggunakan token
     REPO_URL="https://github.com/ikal2759/theme-installer.git"
@@ -303,7 +303,7 @@ cd /var/www/pterodactyl
 yarn
 cd /var/www/
 # Masukkan token GitHub langsung di sini
-GITHUB_TOKEN="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"
+GITHUB_TOKEN="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"
 
 # Clone repositori menggunakan token
 REPO_URL="https://github.com/ikal2759/theme-installer.git"
@@ -486,7 +486,7 @@ fi
  ;;
     5)
      # Masukkan token GitHub langsung di sini
-        GITHUB_TOKEN="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"
+        GITHUB_TOKEN="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"
 
         # Clone repositori menggunakan token
         REPO_URL="https://github.com/ikal2759/theme-installer.git"
@@ -549,7 +549,7 @@ if [ ! -f "$BLUEPRINT_FILE" ]; then
 fi
 
 # Masukkan token GitHub langsung di sini
-GITHUB_TOKEN="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"
+GITHUB_TOKEN="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"
 
 # Clone repositori menggunakan token
 REPO_URL="https://github.com/ikal2759/theme-installer.git"
