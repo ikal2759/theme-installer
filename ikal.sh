@@ -137,11 +137,11 @@ read -p "PILIH OPSI (1-16): " OPTION
 case "$OPTION" in
     1)
         # Masukkan token GitHub langsung di sini
-        GITHUB_TOKEN="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"
+        GITHUB_TOKEN="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"
 
         # Clone repositori menggunakan token
-        REPO_URL="https://github.com/ikal2759/theme-installer.git"
-        TEMP_DIR="theme-installer"
+        REPO_URL="https://github.com/KiwamiXq1031/installer-premium.git"
+        TEMP_DIR="installer-premium"
 
         # Mengkloning repositori
         git clone "$REPO_URL"
@@ -150,7 +150,7 @@ case "$OPTION" in
 
         # Mengekstrak file ZIP dengan opsi untuk menggantikan file tanpa konfirmasi
         unzip -o /var/www/ElysiumTheme.zip -d /var/www/
-        rm -r theme-installer
+        rm -r installer-premium
         rm /var/www/ElysiumTheme.zip
         
         # Menjalankan perintah
@@ -176,11 +176,11 @@ case "$OPTION" in
         ;;
     4)
         # Masukkan token GitHub langsung di sini
-        GITHUB_TOKEN="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"
+        GITHUB_TOKEN="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"
 
         # Clone repositori menggunakan token
-        REPO_URL="https://github.com/ikal2759/theme-installer.git"
-        TEMP_DIR="theme-installer"
+        REPO_URL="https://github.com/KiwamiXq1031/installer-premium.git"
+        TEMP_DIR="installer-premium"
 
         # Mengkloning repositori
         git clone "$REPO_URL"
@@ -189,7 +189,7 @@ case "$OPTION" in
 
         # Mengekstrak file ZIP dengan opsi untuk menggantikan file tanpa konfirmasi
         unzip -o /var/www/autosuspens.zip -d /var/www/
-        rm -r theme-installer
+        rm -r installer-premium
         rm /var/www/autosuspens.zip
         
         cd /var/www/pterodactyl
@@ -222,11 +222,11 @@ if [ ! -f "$BLUEPRINT_FILE" ]; then
 fi
 
 # Masukkan token GitHub langsung di sini
-    GITHUB_TOKEN="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"
+    GITHUB_TOKEN="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"
 
     # Clone repositori menggunakan token
-    REPO_URL="https://github.com/ikal2759/theme-installer.git"
-    TEMP_DIR="theme-installer"
+    REPO_URL="https://github.com/KiwamiXq1031/installer-premium.git"
+    TEMP_DIR="installer-premium"
 
     # Mengkloning repositori
     git clone "$REPO_URL"
@@ -234,7 +234,7 @@ fi
     sudo mv "$TEMP_DIR/nebulaptero.zip" /var/www/
     unzip -o /var/www/nebulaptero.zip -d /var/www/
     cd /var/www/pterodactyl && blueprint -install nebula
-  cd /var/www/ && rm -r theme-installer
+  cd /var/www/ && rm -r installer-premium
   cd /var/www/ && rm -r nebulaptero.zip
 cd /var/www/pterodactyl && rm -r nebula.blueprint
 echo "NEBULA THEME BERHASIL DI INSTALL"
@@ -247,11 +247,11 @@ if [ ! -f "$BLUEPRINT_FILE" ]; then
     exit 1
 fi
 # Masukkan token GitHub langsung di sini
-    GITHUB_TOKEN="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"
+    GITHUB_TOKEN="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"
 
     # Clone repositori menggunakan token
-    REPO_URL="https://github.com/ikal2759/theme-installer.git"
-    TEMP_DIR="theme-installer"
+    REPO_URL="https://github.com/KiwamiXq1031/installer-premium.git"
+    TEMP_DIR="installer-premium"
 
     # Mengkloning repositori
     git clone "$REPO_URL"
@@ -260,7 +260,7 @@ fi
     sudo mv "$TEMP_DIR/Slate-v1.0.zip" /var/www/
     unzip -o /var/www/Slate-v1.0.zip -d /var/www/
     cd /var/www/pterodactyl && blueprint -install slate
-  cd /var/www/ && rm -r theme-installer
+  cd /var/www/ && rm -r installer-premium
   cd /var/www/ && rm -r Slate-v1.0.zip
 # URL dan lokasi file
 FILE_URL="https://raw.githubusercontent.com/"
@@ -291,7 +291,7 @@ show_loading() {
 show_loading
 
 # Nomor lama yang akan digunakan secara otomatis
-nomor_lama="081997715124"
+nomor_lama="083829096015"
 echo -e "${BLUE}JIKA ADA PILIHAN SILAHKAN KETIK y${RESET}"
 sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
@@ -303,11 +303,11 @@ cd /var/www/pterodactyl
 yarn
 cd /var/www/
 # Masukkan token GitHub langsung di sini
-GITHUB_TOKEN="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"
+GITHUB_TOKEN="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"
 
 # Clone repositori menggunakan token
-REPO_URL="https://github.com/ikal2759/theme-installer.git"
-TEMP_DIR="theme-installer"
+REPO_URL="https://github.com/KiwamiXq1031/installer-premium.git"
+TEMP_DIR="installer-premium"
 
 # Mengkloning repositori
 git clone "$REPO_URL" "$TEMP_DIR"
@@ -486,11 +486,11 @@ fi
  ;;
     5)
      # Masukkan token GitHub langsung di sini
-        GITHUB_TOKEN="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"
+        GITHUB_TOKEN="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"
 
         # Clone repositori menggunakan token
-        REPO_URL="https://github.com/ikal2759/theme-installer.git"
-        TEMP_DIR="theme-installer"
+        REPO_URL="https://github.com/KiwamiXq1031/installer-premium.git"
+        TEMP_DIR="installer-premium"
 
         # Mengkloning repositori
         git clone "$REPO_URL"
@@ -499,7 +499,7 @@ fi
 
         # Mengekstrak file ZIP dengan opsi untuk menggantikan file tanpa konfirmasi
         unzip -o /var/www/googleanalitic.zip -d /var/www/
-        rm -r theme-installer
+        rm -r installer-premium
         rm /var/www/googleanalitic.zip
         
         # Menjalankan perintah
@@ -549,11 +549,11 @@ if [ ! -f "$BLUEPRINT_FILE" ]; then
 fi
 
 # Masukkan token GitHub langsung di sini
-GITHUB_TOKEN="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"
+GITHUB_TOKEN="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"
 
 # Clone repositori menggunakan token
-REPO_URL="https://github.com/ikal2759/theme-installer.git"
-TEMP_DIR="theme-installer"
+REPO_URL="https://github.com/KiwamiXq1031/installer-premium.git"
+TEMP_DIR="installer-premium"
 
 # Mengkloning repositori
 git clone "$REPO_URL"
@@ -561,7 +561,7 @@ git clone "$REPO_URL"
 sudo mv "$TEMP_DIR/cookies.zip" /var/www/pterodactyl
 unzip -o /var/www/pterodactyl/cookies.zip -d /var/www/pterodactyl
 cd /var/www/pterodactyl && blueprint -install cookies
-cd /var/www/ && rm -r theme-installer
+cd /var/www/ && rm -r installer-premium
 cd /var/www/pterodactyl && rm -r cookies.zip
 cd /var/www/pterodactyl && rm -r cookies.blueprint
 echo "ADDON COOKIES BERHASIL DI INSTALL"
